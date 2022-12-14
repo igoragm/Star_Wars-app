@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import { setRem, setLetterSpacing,setTransition, setColor, setShadow, setBorder }  from "../../styles";
-//import PropTypes from 'prop-types';
+import { setRem, setLetterSpacing,setTransition, setColor, setShadow, setBorder }  from "../../styles"; // višak, ne ostavljaj neiskorišćene importe
+//import PropTypes from 'prop-types'; - višak, ne ostavljaj komentare
 
 const Film = styled.div `
 background: ${setColor.mainBlack};

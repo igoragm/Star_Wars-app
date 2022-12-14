@@ -1,8 +1,8 @@
 import React, {Component} from "react";
-import styled from "styled-components";
-import PropTypes from 'prop-types';
+import styled from "styled-components"; // višak
+import PropTypes from 'prop-types'; // višak
 import "./styles.js";
-import GlobalStyles from './components/globals/GlobalStyles';
+import GlobalStyles from './components/globals/GlobalStyles'; // višak
 import FilmsList from "./components/FilmsList";
 import "./styles.js";
 

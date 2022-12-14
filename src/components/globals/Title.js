@@ -6,6 +6,7 @@ const Title = ( {className,title}) => {
     return <h1 className={className}> {title} </h1>;
 };
 
+// prettier
 export default styled(Title)`
 font-size: ${setRem(36)};
 text-transform: uppercase;

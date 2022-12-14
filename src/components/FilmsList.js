@@ -1,22 +1,23 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import styled from "styled-components";
-import GlobalStyles from "../components/globals/GlobalStyles";
+import styled from "styled-components"; // višak
+import GlobalStyles from "../components/globals/GlobalStyles"; // višak
 import Section from "./globals/Section";
 import Title from "./globals/Title";
 import PrimaryBtn from "./globals/PrimaryBtn";
 import FilmCard from "./globals/FilmCard";
 import Film from "./globals/Film"
-import {
-  setColor,
-  setFont,
-  setFlex,
-  setRem,
-  setLetterSpacing,
-  setShadow,
-  setBorder,
-  setTransition,
-} from "../styles";
+
+import { // višak
+  setColor, // višak
+  setFont, // višak
+  setFlex, // višak
+  setRem, // višak
+  setLetterSpacing, // višak
+  setShadow, // višak
+  setBorder, // višak
+  setTransition, // višak
+} from "../styles"; // višak
 
 const FilmsList = () => {
   const [moviesList, setMoviesList] = useState([]);
@@ -24,7 +25,7 @@ const FilmsList = () => {
 const [readMore, setReadMore] = useState (false);
 
   useEffect(() => {
-    async function getMoviesList(movieUrl) {
+    async function getMoviesList(movieUrl) {  // movieUrl neupotrebljen - višak
       const starWarsMoviesList = await axios.get(
         "https://swapi.dev/api/films/"
       );

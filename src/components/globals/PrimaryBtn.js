@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { setColor,setRem,setLetterSpacing,setFonts, setFont, setBorder, setTransition } from "../../styles";
 
-
+// prettier
 export const PrimaryBtn = styled.button `
  display:inline-block;
  background: ${setColor.primaryColor};

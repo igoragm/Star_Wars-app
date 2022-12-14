@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import {setColor, setFont} from "../../styles";
 
-
+// prettier
 const Globals = createGlobalStyle `
 @import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
 
